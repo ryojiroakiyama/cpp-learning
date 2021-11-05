@@ -10,7 +10,6 @@ int	main(void)
 	s.append(" Akiyama.");
 	cout << s << endl;
 	cout << "string_length:" << s.length() << endl;
-	//how to use printf(c). because of incompatible between char*(c) and string Class(c++)
-	printf("char*:%s\n", s.c_str());
+	printf("char*:%s\n", s.c_str());// c_str:string(C++) -> const char * (C)
 	return (0);
 }
